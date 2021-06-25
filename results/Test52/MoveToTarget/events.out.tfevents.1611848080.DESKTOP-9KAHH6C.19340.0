@@ -1,0 +1,92 @@
+       £K"	À¤d¶ØAbrain.Event:2Ú¾!#—      Ø†	5½d¶ØA*‹
+ˆ
+Hyperparameters/text_summaryBİBÒ	trainer_type:	ppo
+	hyperparameters:	
+	  batch_size:	1024
+	  buffer_size:	10240
+	  learning_rate:	0.0003
+	  beta:	0.005
+	  epsilon:	0.2
+	  lambd:	0.95
+	  num_epoch:	3
+	  learning_rate_schedule:	linear
+	network_settings:	
+	  normalize:	False
+	  hidden_units:	128
+	  num_layers:	2
+	  vis_encode_type:	simple
+	  memory:	None
+	reward_signals:	
+	  extrinsic:	
+	    gamma:	0.99
+	    strength:	1.0
+	init_path:	None
+	keep_checkpoints:	5
+	checkpoint_interval:	500000
+	max_steps:	5000000
+	time_horizon:	64
+	summary_freq:	50000
+	threaded:	True
+	self_play:	None
+	behavioral_cloning:	None
+	framework:	pytorchJ
+
+text÷û³ª&       sOã 	Ëxád¶ØA€µ*
+
+Policy/Entropy®±?4ì‘2       $Vì	…ád¶ØA€µ*#
+!
+Environment/Episode Lengthr^^AŒøò7       çèÊY	…ád¶ØA€µ*(
+&
+Policy/Extrinsic Value Estimate9¥?ûZ>5       ÖÅ]æ	E‘ád¶ØA€µ*&
+$
+Environment/Cumulative RewardÎÇ½o!ƒ»/       m]P	E‘ád¶ØA€µ* 
+
+Policy/Extrinsic RewardÎÇ½UQÆ™#       °ŸwC	E‘ád¶ØA€µ*
+
+Is Training  €?¸[õÜ7       çèÊY	×—ìi¶ØAĞ»*(
+&
+Policy/Extrinsic Value Estimate­0?KG=5       ÖÅ]æ	-¤ìi¶ØAĞ»*&
+$
+Environment/Cumulative Reward^ñ>‰	0ª/       m]P	-¤ìi¶ØAĞ»* 
+
+Policy/Extrinsic Reward^ñ>ŸµõÓ&       sOã 	O°ìi¶ØAĞ»*
+
+Policy/EntropyÍš±?†lm‘2       $Vì	O°ìi¶ØAĞ»*#
+!
+Environment/Episode LengthÔ ™A»t#*       ®‘õ	O°ìi¶ØAĞ»*
+
+Losses/Policy Loss1'»<‘€â)       7ÿ_ 	Š¼ìi¶ØAĞ»*
+
+Losses/Value LossHq?ff}{,       ô®ÌE	Š¼ìi¶ØAĞ»*
+
+Policy/Learning Rate
+ø58ÏË¶[&       sOã 	ÆÈìi¶ØAĞ»*
+
+Policy/EpsilonÓjê=‚d0#       °ŸwC	ÆÈìi¶ØAĞ»*
+
+Policy/BetaûÊ?:—,\#       °ŸwC	ÿÔìi¶ØAĞ»*
+
+Is Training  €?Øû]&       sOã 	=‚Øn¶ØA Â*
+
+Policy/Entropy~r±?²9S2       $Vì	wØn¶ØA Â*#
+!
+Environment/Episode Length-AçAr
+ì`7       çèÊY	³šØn¶ØA Â*(
+&
+Policy/Extrinsic Value Estimate¸±?„ „h5       ÖÅ]æ	³šØn¶ØA Â*&
+$
+Environment/Cumulative RewardÄfĞ?Ó{ÿØ/       m]P	ò¦Øn¶ØA Â* 
+
+Policy/Extrinsic RewardÄfĞ?pM*       ®‘õ	ò¦Øn¶ØA Â*
+
+Losses/Policy LossA±¸<d¨y)       7ÿ_ 	*³Øn¶ØA Â*
+
+Losses/Value Lossc…>Æ°êq,       ô®ÌE	*³Øn¶ØA Â*
+
+Policy/Learning Rate9}S7şP¿²&       sOã 	*³Øn¶ØA Â*
+
+Policy/EpsilonÌgÕ=*×Lº#       °ŸwC	k¿Øn¶ØA Â*
+
+Policy/Beta=Xf9…¼ÆÔ#       °ŸwC	¡ËØn¶ØA Â*
+
+Is Training  €?’ò¼

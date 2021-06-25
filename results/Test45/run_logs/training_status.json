@@ -1,0 +1,30 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 499936,
+                "file_path": "results\\Test45\\MoveToTarget\\MoveToTarget-499936.onnx",
+                "reward": null,
+                "creation_time": 1611846954.4232454
+            },
+            {
+                "steps": 500064,
+                "file_path": "results\\Test45\\MoveToTarget\\MoveToTarget-500064.onnx",
+                "reward": null,
+                "creation_time": 1611846954.483706
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500064,
+            "file_path": "results\\Test45\\MoveToTarget.onnx",
+            "reward": null,
+            "creation_time": 1611846954.483706
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}
